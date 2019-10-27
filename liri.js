@@ -17,6 +17,12 @@ switch (command) {
     console.log('Getting movie information...');
     getMovieInfo();
     break;
+  // TODO: Add `node liri.js do-what-it-says`
+  /* 
+  case 'do-what-it-says':
+    console.log("Getting my orders. One second...");
+    break;
+  */
   default:
     console.log('Crap! Nothing worked.');
     break;
