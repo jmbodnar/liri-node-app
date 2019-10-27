@@ -1,5 +1,3 @@
-// www.omdbapi.com/?apikey=trilogy&t="Star Wars"
-
 const axios = require('axios');
 
 let [command, ...movie] = process.argv.slice(2);
