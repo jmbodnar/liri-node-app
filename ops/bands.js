@@ -1,5 +1,8 @@
 const [command, ...value] = process.argv.slice(2);
-const band = value.join(' ');
+const band = value
+  .join(' ')
+  .trim()
+  .toLowerCase();
 const axios = require('axios');
 
 const getBandInfo = () => {
