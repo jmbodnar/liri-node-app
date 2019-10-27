@@ -21,5 +21,3 @@ switch (command) {
     console.log('Crap! Nothing worked.');
     break;
 }
-
-// www.omdbapi.com/?apikey=trilogy&t="Star Wars"

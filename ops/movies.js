@@ -9,7 +9,6 @@ movie = movie
   .toLowerCase();
 
 console.log('MOVIE IS', movie);
-// .get(`www.omdbapi.com/?apikey=trilogy&t=${movie}`)
 
 const getMovieInfo = () => {
   return axios
