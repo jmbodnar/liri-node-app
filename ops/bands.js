@@ -13,7 +13,7 @@ const getBandInfo = () => {
       console.log(`\n===== EVENTS LIST FOR ${band.toUpperCase()} =====\n`);
       response.data.forEach(event => {
         const date = new Date(event.datetime);
-        let datestring = `${String(date.getMonth()).padStart(
+        let datestring = `${String(date.getMonth() + 1).padStart(
           2,
           '0'
         )}/${date.getDate()}/${date.getFullYear()}`;
