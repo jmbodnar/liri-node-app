@@ -6,8 +6,6 @@ movie = movie
   .trim()
   .toLowerCase();
 
-console.log('MOVIE IS', movie);
-
 const getMovieInfo = () => {
   return axios
     .get(

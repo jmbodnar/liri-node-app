@@ -1,1 +1,26 @@
-spotify-this-song,"I Want it That Way"
+spotify-this-song,I Want it That Way
+movie-this,Star Wars
+concert-this,Lynrd Skynrd
+spotify-this-song,Misty Mountain Hop
+concert-this,Backstreet Boys
+movie-this,Fast Times at Ridgemont High
+spotify-this-song,Smells Like Teen Spirit
+movie-this,Seven Samurai
+spotify-this-song,Imagine
+movie-this,"Pan's Labyrinth"
+spotify-this-song,One
+movie-this,Bonnie and Clyde
+concert-this,The Black Keys
+spotify-this-song,Billie Jean
+concert-this,Louis The Child
+movie-this,Doctor Zhivago
+movie-this,Reservoir Dogs
+concert-this,Pink
+spotify-this-song,Hey Jude
+concert-this,Eagles
+movie-this,The Deer Hunter
+spotify-this-song,Like a Rolling Stone
+movie-this,Airplane!
+concert-this,Katy Perry
+spotify-this-song,"I Can't Get No Satisfaction"
+movie-this,Close Encounters of the Third Kind

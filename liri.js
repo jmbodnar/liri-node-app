@@ -3,26 +3,25 @@ const command = process.argv[2];
 const { getBandInfo } = require('./ops/bands');
 const { getSongInfo } = require('./ops/songs');
 const { getMovieInfo } = require('./ops/movies');
+const { getRandomInfo } = require('./ops/random');
 
 switch (command) {
   case 'concert-this':
-    console.log('Getting concert information...');
+    console.log('get concert information...');
     getBandInfo();
     break;
   case 'spotify-this-song':
-    console.log('Getting song information...');
+    console.log('get song information...');
     getSongInfo();
     break;
   case 'movie-this':
-    console.log('Getting movie information...');
+    console.log('get movie information...');
     getMovieInfo();
     break;
-  // TODO: Add `node liri.js do-what-it-says`
-  /* 
   case 'do-what-it-says':
-    console.log("Getting my orders. One second...");
+    console.log('Getting my orders. One second...');
+    getRandomInfo();
     break;
-  */
   default:
     console.log('Crap! Nothing worked.');
     break;
