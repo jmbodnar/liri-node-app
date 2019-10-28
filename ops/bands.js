@@ -1,9 +1,11 @@
 const [command, ...value] = process.argv.slice(2);
-const band = value
+let band = value
   .join(' ')
   .trim()
   .toLowerCase();
 const axios = require('axios');
+
+if (!band) band = 'Philip Glass';
 
 const getBandInfo = () => {
   return axios

@@ -6,6 +6,8 @@ movie = movie
   .trim()
   .toLowerCase();
 
+if (!movie) movie = 'Mr Nobody';
+
 const getMovieInfo = () => {
   return axios
     .get(
