@@ -1,3 +1,4 @@
+const fs = require('fs');
 const [command, ...value] = process.argv.slice(2);
 let band = value
   .join(' ')
@@ -15,7 +16,9 @@ const getBandInfo = () => {
       )}/events?app_id=codingbootcamp`
     )
     .then(response => {
+      let out = '';
       console.log(`\n===== EVENTS LIST FOR ${band.toUpperCase()} =====\n`);
+      out += `\n===== EVENTS LIST FOR ${band.toUpperCase()} =====\n`;
       response.data.forEach(event => {
         const date = new Date(event.datetime);
         let datestring = `${String(date.getMonth() + 1).padStart(
@@ -23,6 +26,7 @@ const getBandInfo = () => {
           '0'
         )}/${date.getDate()}/${date.getFullYear()}`;
         console.log(`\n\tVenue Name: ${event.venue.name}`);
+        out += `\n\tVenue Name: ${event.venue.name}\n`;
         console.log(
           `\tEvent Location: ${
             event.venue.city ? event.venue.city + ', ' : ''
@@ -30,9 +34,17 @@ const getBandInfo = () => {
             event.venue.country ? event.venue.country : ''
           }`
         );
+        out += `\tEvent Location: ${
+          event.venue.city ? event.venue.city + ', ' : ''
+        }${event.venue.region ? event.venue.region + ', ' : ''}${
+          event.venue.country ? event.venue.country : ''
+        }\n`;
         console.log(`\tEvent Date: ${datestring}\n`);
+        out += `\tEvent Date: ${datestring}\n`;
       });
       console.log(`\n===== END EVENTS LIST FOR ${band.toUpperCase()} =====`);
+      out += `\n===== END EVENTS LIST FOR ${band.toUpperCase()} =====\n`;
+      fs.appendFile('./ops/log.txt', out, error => {});
     })
     .catch(error => {
       console.log('Problem:', error.response.data.message);

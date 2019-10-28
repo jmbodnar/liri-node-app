@@ -1,0 +1,82 @@
+
+===== EVENTS LIST FOR LYNRD SKYNRD =====
+
+	Venue Name: Hard Rock Live (in Seminole Hard Rock)
+	Event Location: Hollywood, FL, United States
+	Event Date: 11/30/2019
+
+	Venue Name: American Airlines Center
+	Event Location: Dallas, TX, United States
+	Event Date: 12/31/2019
+
+===== END EVENTS LIST FOR LYNRD SKYNRD =====
+get concert information...
+
+===== EVENTS LIST FOR LYNRD SKYNRD =====
+
+
+	Venue Name: Hard Rock Live (in Seminole Hard Rock)
+	Event Location: Hollywood, FL, United States
+	Event Date: 11/30/2019
+
+
+	Venue Name: American Airlines Center
+	Event Location: Dallas, TX, United States
+	Event Date: 12/31/2019
+
+
+===== END EVENTS LIST FOR LYNRD SKYNRD =====
+
+===== INFO FOR "STAR WARS" =====
+
+	TITLE: Star Wars: Episode IV - A New Hope
+	RELEASED: 1977
+	RATINGS:
+	 * INTERNET MOVIE DATABASE: 8.6/10
+	 * ROTTEN TOMATOES: 93%
+	 * METACRITIC: 90/100
+	COUNTRY: USA
+	LANGUAGE: English
+	PLOT: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+	ACTORS: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+===== END INFO FOR "STAR WARS" =====
+
+get movie information...
+
+===== INFO FOR "STAR WARS" =====
+
+	TITLE: Star Wars: Episode IV - A New Hope
+	RELEASED: 1977
+	RATINGS:
+	 * INTERNET MOVIE DATABASE: 8.6/10
+	 * ROTTEN TOMATOES: 93%
+	 * METACRITIC: 90/100
+	COUNTRY: USA
+	LANGUAGE: English
+	PLOT: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+	ACTORS: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+===== END INFO FOR "STAR WARS" =====
+
+
+===== SONG DATA FOR "MISTY MOUNTAIN HOP" =====
+
+	Song Title:misty mountain hop
+	Artist Name: Led Zeppelin
+	Preview URL:https://p.scdn.co/mp3-preview/7bb0e06b8ba8c832667bded2de92cd5cbaddfdc5?cid=7308f7e3ffba484888dd7259a0329b45
+	Album Title: Led Zeppelin IV (Deluxe Edition)
+
+===== END SONG DATA FOR "MISTY MOUNTAIN HOP" =====
+
+get song information...
+
+===== SONG DATA FOR "MISTY MOUNTAIN HOP" =====
+
+	Song Title: misty mountain hop
+	Artist Name: Led Zeppelin
+	Preview URL: https://p.scdn.co/mp3-preview/7bb0e06b8ba8c832667bded2de92cd5cbaddfdc5?cid=7308f7e3ffba484888dd7259a0329b45
+	Album Title: Led Zeppelin IV (Deluxe Edition)
+
+===== END SONG DATA FOR "MISTY MOUNTAIN HOP" =====
+

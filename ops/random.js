@@ -13,6 +13,7 @@ const getRandomInfo = () => {
     if (error) {
       console.log(error);
     } else {
+      let out = '';
       const commandsList = contents.split(/\n/);
       let command = getRandomItem(commandsList);
       child = exec(`node liri.js ${command[0]} ${command[1]}`, function(
@@ -21,12 +22,14 @@ const getRandomInfo = () => {
         stderr
       ) {
         console.log('Okay, got them. Now executing command to ' + stdout);
+        out += stdout;
         if (stderr !== '') {
           console.log('stderr: ' + stderr);
         }
         if (error !== null) {
           console.log('exec error: ' + error);
         }
+        fs.appendFile('./ops/log.txt', out, error => {});
       });
     }
   });
